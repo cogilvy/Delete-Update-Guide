@@ -14,7 +14,7 @@
 
 ## User Stories
 
-### 1. As a User, I want to be able to delete a destination from a flight.
+### As a User, I want to be able to delete a destination from a flight.
 
 ##### Step 1 - Identify the "Proper" Route
 
@@ -76,7 +76,7 @@ module.exports = {
 
 ---
 
-### 2. As a User, I want to be able to delete a ticket from a flight.
+### As a User, I want to be able to delete a ticket from a flight.
 
 ##### Step 1 - Identify the "Proper" Route
 
@@ -135,7 +135,7 @@ module.exports = {
 
 ---
 
-### 3. As a User, I want to be able to edit the details of a flight.
+### As a User, I want to be able to edit the details of a flight.
 
 ##### Step 1 - Identify the "Proper" Route
 
