@@ -45,7 +45,7 @@ Add this to our "routes/destinations":
 router.delete('/destinations/:id', destinationsCtrl.delete);
 ```
 
-##### Step 4 & 5 - Code the Controller Action & Respond to the Client's HTTP Request (Render/Redirect)
+##### Steps 4 & 5 - Code the Controller Action & Respond to the Client's HTTP Request (Render/Redirect)
 
 Now that our route is defined, we need to create the controller function that will be responsible for actually deleting the destination.
 
@@ -107,7 +107,7 @@ Add this to our "routes/tickets":
 router.delete('/tickets/:id', ticketsCtrl.delete);
 ```
 
-##### Step 4 & 5 - Code the Controller Action & Respond to the Client's HTTP Request (Render/Redirect)
+##### Steps 4 & 5 - Code the Controller Action & Respond to the Client's HTTP Request (Render/Redirect)
 
 Now that our route is defined, we need to create the controller function that will be responsible for actually deleting the ticket.
 
@@ -208,7 +208,7 @@ router.get('/:id/edit', flightCtrl.edit);
 router.put('/:id', flightCtrl.update);
 ```
 
-##### Step 4 & 5 - Code the Controller Action & Respond to the Client's HTTP Request (Render/Redirect)
+##### Steps 4 & 5 - Code the Controller Action & Respond to the Client's HTTP Request (Render/Redirect)
 
 Now that our route is defined, we need to create the controller function that will be responsible for bringing up the edit form, and then updating the flight with the new information once the form is submitted.
 
