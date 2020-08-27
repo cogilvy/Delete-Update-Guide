@@ -7,6 +7,7 @@
 ## Getting Started
 
 1. Fork and clone this repo to your computer: ```git clone git@github.com:cogilvy/Delete-Update-Guide.git```
+2. Move into directory: ```cd Delete-Update-Guide```
 2. Install necessary node modules: ```npm install```
 3. Have this helpful RESTful routing guide handy - [Link Here](https://gist.github.com/jim-clark/17908763db7bd3c403e6)
 
