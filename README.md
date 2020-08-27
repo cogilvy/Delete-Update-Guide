@@ -1,4 +1,6 @@
-# Delete-Update-Guide
+<img src="https://i.imgur.com/sX12DTc.png">
+
+# Guide to Updating & Deleting Data
 
 ---
 
@@ -6,6 +8,7 @@
 
 1. Fork and clone this repo to your computer
 2. Install necessary node modules with ```npm install```
+3. Have this helpful RESTful routing guide handy <https://gist.github.com/jim-clark/17908763db7bd3c403e6> [Link Here]
 
 ---
 
@@ -15,6 +18,7 @@
 
 ##### Step 1 - Identify the "Proper" Route
 
+In this case,
 
 ##### Step 2 - Create the UI/View
 
@@ -32,7 +36,7 @@
 
 
 
-
+---
 ### 2. As a User, I want to be able to delete a ticket from a flight.
 
 ##### Step 1 - Identify the "Proper" Route
@@ -54,7 +58,7 @@
 
 
 
-
+---
 ### 3. As a User, I want to be able to edit the details of a flight.
 
 ##### Step 1 - Identify the "Proper" Route
