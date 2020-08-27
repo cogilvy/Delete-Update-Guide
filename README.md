@@ -170,7 +170,7 @@ Copy this code into your edit.ejs file:
 
 ```html
 <%- include('../partials/header') %>
-<form action="/flights" method="POST">
+<form action="/flights/<%= flight._id %>?_method=PUT" method="POST">
     <label for="airline">Edit Airline:
         <select name="airline">
             <option <%= flight.airline === "American" ? "selected":"" %> value="American">American</option>
