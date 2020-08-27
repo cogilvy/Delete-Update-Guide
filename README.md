@@ -170,7 +170,7 @@ Copy this code into your edit.ejs file:
 
 ```html
 <%- include('../partials/header') %>
-<form action="/flights" method="POST">
+<form action="/flights/<%= flight._id %>?_method=PUT" method="POST">
     <label for="airline">Edit Airline:
         <select name="airline">
             <option <%= flight.airline === "American" ? "selected":"" %> value="American">American</option>
@@ -226,7 +226,7 @@ function edit(req, res) {
 }
 
 function update(req, res) {
-    Flight.findByIdAndUpdate(req.params.id, req.body, {new: true}, function(err, flight) {
+    Flight.findByIdAndUpdate(req.params.id, req.body, function(err, flight) {
         if (err) {
             res.render('flights/edit', { flight, title: 'Edit Flight', flightDeparts: flight.departs.toISOString().slice(0, 16) })
         }
