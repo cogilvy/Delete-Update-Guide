@@ -149,7 +149,7 @@ The PUT route will be:
 
 ##### Step 2 - Create the UI
 
-We will need to create two things to handle edit a flight: an edit link and a form to edit the flight.
+We will need to create two things to handle editing a flight: an edit link and a form to edit the flight.
 
 First, let's add the edit link right next to the details link on our "flights/index" view:
 
