@@ -226,7 +226,7 @@ function edit(req, res) {
 }
 
 function update(req, res) {
-    Flight.findByIdAndUpdate(req.params.id, req.body, {new: true}, function(err, flight) {
+    Flight.findByIdAndUpdate(req.params.id, req.body, function(err, flight) {
         if (err) {
             res.render('flights/edit', { flight, title: 'Edit Flight', flightDeparts: flight.departs.toISOString().slice(0, 16) })
         }
