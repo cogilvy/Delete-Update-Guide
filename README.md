@@ -6,9 +6,9 @@
 
 ## Getting Started
 
-1. Fork and clone this repo to your computer ```git clone git@github.com:cogilvy/Delete-Update-Guide.git```
-2. Install necessary node modules with ```npm install```
-3. Have this helpful RESTful routing guide handy [Link Here](https://gist.github.com/jim-clark/17908763db7bd3c403e6)
+1. Fork and clone this repo to your computer: ```git clone git@github.com:cogilvy/Delete-Update-Guide.git```
+2. Install necessary node modules: ```npm install```
+3. Have this helpful RESTful routing guide handy - [Link Here](https://gist.github.com/jim-clark/17908763db7bd3c403e6)
 
 ---
 
@@ -149,14 +149,13 @@ The PUT route will be:
 
 ##### Step 2 - Create the UI
 
-We will need to create two things to handle edit a flight: an edit link and a form to edit the flight.
+We will need to create two things to handle editing a flight: an edit link and a form to edit the flight.
 
+First, let's add the edit link right next to the details link on our "flights/index" view:
 
-We will add the edit link right next to the details link on our "flights/index" view.
-
-First, find the line of code that looks like this:
+Find the line of code that looks like this:
 ```html
-<td><a href="/flights/<%=flight._id%>">Details</a>
+<td><a href="/flights/<%=flight._id%>">Details</a></td>
  ```
  
  And replace it with this:
