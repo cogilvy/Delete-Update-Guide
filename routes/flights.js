@@ -8,5 +8,7 @@ router.get('/new', flightCtrl.new);
 router.get('/:id', flightCtrl.show);
 router.post('/', flightCtrl.create);
 router.delete('/:id', flightCtrl.delete);
+router.get('/:id/edit', flightCtrl.edit);
+router.put('/:id', flightCtrl.update);
 
 module.exports = router;

@@ -12,7 +12,7 @@
                 <td><%= flight.airline %></td>
                 <td><%= flight.flightNo %></td>
                 <td><%= flight.departs %></td>
-                <td><a href="/flights/<%=flight._id%>">Details</a></td>
+                <td><a href="/flights/<%=flight._id%>">Details</a>&nbsp;|&nbsp;<a href="/flights/<%=flight._id%>/edit">Edit</a></td>
                 <td>
                   <form action="/flights/<%=flight._id%>?_method=DELETE" method="POST">
                     <button class="red-button" type="submit">X</button>

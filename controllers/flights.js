@@ -6,7 +6,9 @@ module.exports = {
     new: newFlight,
     create,
     show,
-    delete: deleteFlight
+    delete: deleteFlight,
+    edit,
+    update
 }
 
 function getDefaultDate() {
@@ -50,6 +52,24 @@ function deleteFlight(req, res) {
             res.redirect('/flights');
         });
     });
+}
+
+function edit(req, res) {
+    Flight.findById(req.params.id, function (err, flight) {
+        if (err) {
+            res.redirect(`/flights`)
+        }
+        res.render('flights/edit', { flight, title: 'Edit Flight', flightDeparts: flight.departs.toISOString().slice(0, 16) })
+    })
+}
+
+function update(req, res) {
+    Flight.findByIdAndUpdate(req.params.id, req.body, function (err, flight) {
+        if (err) {
+            res.render('flights/edit', { flight, title: 'Edit Flight', flightDeparts: flight.departs.toISOString().slice(0, 16) })
+        }
+        res.redirect(`/flights`)
+    })
 }
 
 
