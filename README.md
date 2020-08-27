@@ -156,7 +156,7 @@ We will add the edit link right next to the details link on our "flights/index" 
 
 First, find the line of code that looks like this:
 ```html
-<td><a href="/flights/<%=flight._id%>">Details</a>
+<td><a href="/flights/<%=flight._id%>">Details</a></td>
  ```
  
  And replace it with this:
