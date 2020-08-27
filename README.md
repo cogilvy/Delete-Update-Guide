@@ -11,7 +11,21 @@
 
 ## User Stories
 
-### 1. AAU, I want to be able to delete a destination from a flight.
+### 1. As a User, I want to be able to delete a destination from a flight.
+
+##### Step 1 - Identify the "Proper" Route
+
+
+##### Step 2 - Create the UI/View
+
+
+##### Step 3 - Define the Route
+
+
+##### Step 4 - Code the Controller Action
+
+
+##### Step 5 - Respond to the Client's HTTP Request (render or redirect)
 
 
 
@@ -19,15 +33,40 @@
 
 
 
+### 2. As a User, I want to be able to delete a ticket from a flight.
 
-#### 2. AAU, I want to be able to delete a ticket from a flight.
-
-
-
+##### Step 1 - Identify the "Proper" Route
 
 
+##### Step 2 - Create the UI/View
+
+
+##### Step 3 - Define the Route
+
+
+##### Step 4 - Code the Controller Action
+
+
+##### Step 5 - Respond to the Client's HTTP Request (render or redirect)
 
 
 
 
-3. AAU, I want to be able to edit the details of a flight.
+
+
+
+### 3. As a User, I want to be able to edit the details of a flight.
+
+##### Step 1 - Identify the "Proper" Route
+
+
+##### Step 2 - Create the UI/View
+
+
+##### Step 3 - Define the Route
+
+
+##### Step 4 - Code the Controller Action
+
+
+##### Step 5 - Respond to the Client's HTTP Request (render or redirect)
