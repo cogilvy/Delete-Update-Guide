@@ -8,7 +8,7 @@
 
 1. Fork and clone this repo to your computer
 2. Install necessary node modules with ```npm install```
-3. Have this helpful RESTful routing guide handy <https://gist.github.com/jim-clark/17908763db7bd3c403e6> [Link Here]
+3. Have this helpful RESTful routing guide handy [Link Here] (https://gist.github.com/jim-clark/17908763db7bd3c403e6)
 
 ---
 
@@ -18,10 +18,12 @@
 
 ##### Step 1 - Identify the "Proper" Route
 
-In this case,
+In this case, we want to delete an embedded subdocument (Destination) from a data model (Flight), so the proper route for deleting a destination would be:
+``` "/destinations/:id" ```
 
-##### Step 2 - Create the UI/View
+##### Step 2 - Create the UI
 
+Since all we are doing is deleting a destination, we don't need to create a new view to handle our request. Instead, we will just add a delete button next to each destination that is displayed
 
 ##### Step 3 - Define the Route
 
@@ -42,7 +44,7 @@ In this case,
 ##### Step 1 - Identify the "Proper" Route
 
 
-##### Step 2 - Create the UI/View
+##### Step 2 - Create the UI
 
 
 ##### Step 3 - Define the Route
@@ -64,7 +66,7 @@ In this case,
 ##### Step 1 - Identify the "Proper" Route
 
 
-##### Step 2 - Create the UI/View
+##### Step 2 - Create the UI
 
 
 ##### Step 3 - Define the Route
