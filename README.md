@@ -151,10 +151,9 @@ The PUT route will be:
 
 We will need to create two things to handle edit a flight: an edit link and a form to edit the flight.
 
+First, let's add the edit link right next to the details link on our "flights/index" view:
 
-We will add the edit link right next to the details link on our "flights/index" view.
-
-First, find the line of code that looks like this:
+Find the line of code that looks like this:
 ```html
 <td><a href="/flights/<%=flight._id%>">Details</a></td>
  ```
