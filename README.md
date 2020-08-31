@@ -116,8 +116,8 @@ Add this to our "controllers/tickets":
 
 ```js
 function deleteTicket(req, res) {
-    Ticket.findByIdAndDelete(req.params.id, function(err) {
-        res.redirect('/flights')
+    Ticket.findByIdAndRemove(req.params.id, function (err, ticket) {
+        res.redirect(`/flights/${ticket.flight}`)
     })
 }
 ```
